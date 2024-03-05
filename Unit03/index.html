@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unit03 - Formulários</title>
+</head>
+<body>
+    <h2>Elementos de um Formularios</h2>
+
+    <form action="" method="post">
+        Nome: <input type="text" name="nome" /><br/>
+        Senha: <input type="password" name="senha"/><br/>
+        <hr/>
+        Para qual time voce torce?<br/>
+        <input type="radio" name="time" value="Brasil"/>Brasil<br/>
+        <input type="radio" name="time" value="Argentina"/>Argentina<br/>
+        <input type="radio" name="time" value="Alemanha"/>Alemanha<br/>
+        <input type="radio" name="time" value="Italia" checked/>Italia<br/>
+        <hr/>
+
+        Escolha seus esportes preferidos <br/>
+        <input type="checkbox" name="esporte1" value="Futebol"/>Futebol<br/>
+        <input type="checkbox" name="esporte2" value="Vôlei"/>Volei<br/>
+        <input type="checkbox" name="esporte3" value="E-sports"/>E-sports<br/>
+        <input type="checkbox" name="esporte4" value="Basquete"/>Basquete<br/>
+        <hr/>
+
+        Escolha uma cor:<br/>
+        <input type="color" name="cor"/><br/>
+        <hr/>
+
+        Data atual<br/>
+        <input type="date" name="data"/><br/>
+
+        Data e Hora<br/>
+        <input type="datetime-local" name="data1"/><br/>
+
+        <hr/>
+
+        Email<br/>
+        <input type="email" name="email"/> <br/>
+        <hr/>
+
+        Arquivo<br/>
+        <input type="file" name="Arquivo"/> <br/>
+        <hr/>
+
+        Numero(Entre 1 e 5)<br/>
+        <input type="number" name="quantidade"/><br/>
+        <hr/>
+
+        Pontos<br/>
+        <input type="range" name="pontos" min="0" max="10"/><br/>
+        <hr/>
+
+        <input type="submit" value="Enviar"/>
+        <input type="reset" value="Redefinir"/> <br/>
+        <hr/>
+
+        Selecionar sua comida favorita: <br/>
+        <select name="comidas"
+           
+         <option value="Pizza">Pizza</option>
+         <option value="Pastel">Pastel</option>
+         <option value="Lanche">Lanche</option>
+         <option value="Arroz">Arroz</option>
+    </select>
+    <hr/>
+
+    Deixe aqui sua mensagem:<br/>
+    <textarea name="mensagem" rows="10" cols="30">Escreva aqui seu texto...</textarea>
+    <hr/>
+
+    <butoon type="button" onclick="alert('Ola mundo')">Clique aqui</butoon>
+
+    <h2>Atributos de Inputs HTML</h2>
+
+    <input type="text" name="nome" value="Escreva algo aqui"/> <br/>
+    <input type="text" name="nome" value="Jose" readonly/> <br/>
+    <input type="text" name="nome" value="Maria" disabled/> <br/>
+    <input type="text" name="nome" value="João" size="40"/> <br/>
+    <input type="text" name="nome" maxlength="4"/> <br/>
+    <input type="text" name="nome" placeholder="Digite seu nome aqui"/> <br/>
+    <input type="text" name="username" required/>
+    </form>
+</body>
+</html>
