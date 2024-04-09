@@ -12,12 +12,14 @@ body{
     color: #f2f2f2;
     text-decoration: none;
     padding: 14px 16px;
-    display: blocks;
+    display: block;
+    float:left;
 }
 
 .banner{
     background-color: #00aaff;
     padding: 15px;
+    margin-top: 7px;
 }
 
 .container{
@@ -28,6 +30,7 @@ body{
 .menu{
     background-color: #009911;
     width: 20%;
+    float:left;
 }
 
 .menu a{
@@ -36,25 +39,36 @@ body{
     width: 100%;
     padding: 8px;
     display: block;
+    margin-top: 7px;
 }
 
 .main{
     background-color: #505099;
     width: 60%;
     padding:0 20px;
+    float:left;
 }
 
 .right{
     background-color: #901245;
     width: 20%;
     padding: 15px;
+    float:left;
+    margin-top: 7px;
 }
 
 .footer{
     background-color: #146020;
     padding: 10px;
+    margin-top: 7px;
 }
 
 * {
     box-sizing: border-box;
+}
+
+@media only screen and (max-width : 620px) {
+    .menu,.main,.right {
+        width: 100%;
+    }
 }

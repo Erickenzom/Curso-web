@@ -1,0 +1,103 @@
+ul.vertical {
+    list-style-type:none ;
+    margin: 0;
+    padding: 0;
+    width: 250px;
+    background-color: #dddddd;
+}
+
+.vertical li a {
+    display: block;
+    color: #000000;
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: 3s;
+}
+
+.vertical li a:hover{
+    background-color: #333333;
+    color: #ffffff;
+    box-shadow: 0 0 35px #0022fa;
+    transition: 0.3s;
+} 
+
+ul.horizontal{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #0a3;
+    position: fixed;
+    bottom: 0;
+    width:100%;
+} 
+
+.horizontal li {
+    float: left;
+}
+
+.horizontal li a {
+    display: block;
+    color: #333333;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.horizontal li a:hover {
+    background-color: #333333;
+    color: #ffffff;
+    box-shadow: 0 0 35px #fff;
+    transition: 0.3s;
+}
+
+ul.menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    background-color: #00aaaa;
+    width: 100%;
+    top:0;
+}
+
+ul.submenu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    background-color: #dddddd;
+    display: none;
+}
+
+.menu li {
+    float: left;
+    width: auto;
+    position: relative;
+}
+
+.submenu li {
+    float: left;
+    width:200px;
+    position: relative;
+}
+
+.menu li a{
+    display:block;
+    color: #ffffff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.submenu li a {
+    display: block;
+    color: #000;
+    text-align: left;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.menu li:hover > ul.submenu{
+    display:block;
+}
