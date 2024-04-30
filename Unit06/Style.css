@@ -58,7 +58,7 @@ ul.menu {
     position: absolute;
     background-color: #00aaaa;
     width: 100%;
-    top:0;
+    top: 0;
 }
 
 ul.submenu {
@@ -100,4 +100,54 @@ ul.submenu {
 
 .menu li:hover > ul.submenu{
     display:block;
+}
+
+.ex-fixed {
+    background-color: #ddd;
+    border: 1px solid #000;
+    padding: 16px;
+    position: fixed;
+    top: 10px;
+    right: 10px;
+}
+
+.ex-relative{
+    background-color: #567;
+    border: 1px solid #000;
+    padding: 16px;
+    position: relative;
+    left: 25px;
+    bottom: 25px;
+}
+
+.ex-absolute{
+    background-color: #f47;
+    border: 1px solid #000;
+    padding: 16px;
+    position: absolute;
+    top: 0;
+}
+
+.ex2-relative{
+    background-color: #567;
+    border: 1px solid #000;
+    padding: 16px;
+    position: relative;
+}
+
+.ex2-absolute{
+    background-color: blue;
+    border: 1px solid #000;
+    padding: 10px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.ex-sticky{
+    background-color: blue;
+    border: 1px solid #000;
+    padding: 10px;
+    position: sticky;
+    top: 50px;
 }
