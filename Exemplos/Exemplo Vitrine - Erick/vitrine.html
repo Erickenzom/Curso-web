@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vitrine de Produtos</title>
+    <link rel="stylesheet" href="vitrine.css">
+</head>
+<body>
+    <header>
+        <h1>Minha Loja</h1>
+        <nav>
+            <a href="vitrine.html">Início</a>
+            <a href="cart.html">Carrinho</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="products">
+            <article class="product">
+                <img src="assets/43312.jpg" alt="Produto 1">
+                <h2>Produto 1</h2>
+                <p>R$ 100,00</p>
+                <a href="product.html?product=1" class="btn">Ver Detalhes</a>
+                <button class="btn add-to-cart" data-id="1">Adicionar ao Carrinho</button>
+            </article>
+
+            <article class="product">
+                <img src="assets/43312.jpg" alt="Produto 2">
+                <h2>Produto 2</h2>
+                <p>R$ 150,00</p>
+                <a href="product.html?product=2" class="btn">Ver Detalhes</a>
+                <button class="btn add-to-cart" data-id="2">Adicionar ao Carrinho</button>
+            </article>
+            
+            <!-- Adicione mais produtos conforme necessário -->
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Minha Loja</p>
+    </footer>
+
+    <script src="vitrine.js"></script>
+</body>
+</html>
